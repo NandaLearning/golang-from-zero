@@ -1,10 +1,8 @@
 package golearn
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func Variable() {
-	nama := "nanda"
-	fmt.Println(nama)
+	var a, b, c int = 12, 12, 12
+	fmt.Println(a, b, c)
 }

@@ -1,13 +1,7 @@
 package main
 
-import (
-	"fmt"
-	"golang-from-zero/golearn"
-	"golang-from-zero/golearn/nama"
-)
+import "golang-from-zero/server"
 
 func main() {
-	fmt.Println("dari main")
-	golearn.Variable()
-	nama.Nama()
+	server.Backend()
 }
